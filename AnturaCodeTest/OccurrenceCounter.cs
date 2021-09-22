@@ -41,6 +41,9 @@ namespace AnturaCodeTestCSharp
         public static int CountOccurrencesInString(string wholeString, string searchString)
         {
             int searchStringLength = searchString.Length;
+            
+            if(searchString.Length < 1)
+                return 0;
 
             char[] wholeChars = wholeString.ToCharArray();
             char[] searchChars = searchString.ToCharArray();
