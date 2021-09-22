@@ -4,7 +4,7 @@ using AnturaCodeTestCSharp;
 namespace AnturaTestsCSharp
 {
     [TestClass]
-    public class AnturaCodeTestCSharpUnitTest
+    public class AnturaTaskCSharpUnitTest
     {
         [TestMethod]
         public void TestCountOccurencesInString()

@@ -4,7 +4,7 @@ open Microsoft.VisualStudio.TestTools.UnitTesting
 open AnturaCodeTestFSharp
 
 [<TestClass>]
-type AnturaCodeTestFSharpUnitTest () =
+type AnturaTaskFSharpUnitTest () =
 
     [<TestMethod>]
     member this.TestCharArrayEquals () =
@@ -19,7 +19,7 @@ type AnturaCodeTestFSharpUnitTest () =
         Assert.IsFalse <| OccurrenceCounter.charArrayEquals [|'a';'b'|] [||]
         
     [<TestMethod>]
-    member this.countOccurrencesInString () =
+    member this.TestCountOccurrencesInString () =
         Assert.IsTrue ((OccurrenceCounter.countOccurrencesInString "antura" "antura") = 1)
         Assert.IsTrue ((OccurrenceCounter.countOccurrencesInString "antura" "anturantura") = 2)
         Assert.IsTrue ((OccurrenceCounter.countOccurrencesInString "antura" "anturAntura") = 0)

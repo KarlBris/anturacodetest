@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AnturaCodeTestFSharp\AnturaCodeTestFSharp.fsproj" />
+    <ProjectReference Include="..\AnturaCodeTestFSharp\AnturaTaskFSharp.fsproj" />
   </ItemGroup>
 
 </Project>

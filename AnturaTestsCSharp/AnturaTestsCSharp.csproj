@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AnturaCodeTest\AnturaCodeTestCSharp.csproj" />
+    <ProjectReference Include="..\AnturaCodeTest\AnturaTaskCSharp.csproj" />
   </ItemGroup>
 
 </Project>

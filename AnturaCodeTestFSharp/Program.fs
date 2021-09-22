@@ -7,12 +7,8 @@ let main argv =
         let filename = argv.[0]
         if File.Exists filename then
             try
-                let sw = System.Diagnostics.Stopwatch()
-                sw.Start()
                 let count = OccurrenceCounter.countOccurrences filename
-                sw.Stop()
                 printfn "found %i" count
-                printfn "Elapsed=%s" (sw.Elapsed.ToString())
                 0
             with
             | e -> 

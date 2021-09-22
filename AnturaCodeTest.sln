@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnturaCodeTestCSharp", "AnturaCodeTest\AnturaCodeTestCSharp.csproj", "{5BB3A675-243E-4927-BB5C-5133F3F5215A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnturaCodeTestCSharp", "AnturaCodeTest\AnturaTaskCSharp.csproj", "{5BB3A675-243E-4927-BB5C-5133F3F5215A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnturaTestsCSharp", "AnturaTestsCSharp\AnturaTestsCSharp.csproj", "{0D76EB98-BE1F-49BA-95E9-A4076F6CE2AB}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AnturaCodeTestFSharp", "AnturaCodeTestFSharp\AnturaCodeTestFSharp.fsproj", "{30D5D7E9-7265-42BB-828A-83A7456B24EB}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AnturaCodeTestFSharp", "AnturaCodeTestFSharp\AnturaTaskFSharp.fsproj", "{30D5D7E9-7265-42BB-828A-83A7456B24EB}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AnturaTestsFSharp", "AnturaTestsFSharp\AnturaTestsFSharp.fsproj", "{3E96594C-8934-40F9-9402-E6887EFE17B2}"
 EndProject
