@@ -16,6 +16,7 @@ namespace AnturaTestsCSharp
             Assert.AreEqual(1, OccurrenceCounter.CountOccurrencesInString("antura ntura", "antura"));
             Assert.AreEqual(0, OccurrenceCounter.CountOccurrencesInString("a", "antura"));
             Assert.AreEqual(2, OccurrenceCounter.CountOccurrencesInString("antura", "a"));
+            Assert.AreEqual(0, OccurrenceCounter.CountOccurrencesInString("antura", ""));
         }
     }
 }

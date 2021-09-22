@@ -9,16 +9,24 @@ namespace AnturaCodeTestCSharp
         {
             if (args.Length == 1)
             {
-                OccurrenceCounter counter = new OccurrenceCounter(args[0]);
-                try
+                string filename = args[0];
+                if (File.Exists(filename))
                 {
-                    string searchWord = Path.GetFileNameWithoutExtension(counter.filename);
-                    int count = counter.CountOccurrences(searchWord);
-                    Console.WriteLine("found {0}", count);
+                    OccurrenceCounter counter = new OccurrenceCounter(filename);
+                    try
+                    {
+                        string searchWord = Path.GetFileNameWithoutExtension(counter.filename);
+                        int count = counter.CountOccurrences(searchWord);
+                        Console.WriteLine("found {0}", count);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("The program encountered an error: {0}", e.Message);
+                    }
                 }
-                catch (Exception e)
+                else
                 {
-                    Console.WriteLine("The program encountered an error: {0}", e.Message);
+                    Console.WriteLine("The file {0} does not exist. Please specify an existing file.", filename);
                 }
             }
             else
